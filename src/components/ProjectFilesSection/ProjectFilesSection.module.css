@@ -1,0 +1,16 @@
+.projectFilesSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 30px;
+  width: 100%;
+}
+.title {
+  font-size: 30px;
+  color: #121481;
+}

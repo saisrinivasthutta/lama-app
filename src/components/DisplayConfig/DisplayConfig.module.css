@@ -1,0 +1,35 @@
+.displayConfig {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.displayTopConfigs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 100px;
+}
+
+.toggleWrapper {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / span 2;
+}
+
+.horizontal {
+  height: 2px;
+  background-color: var(--text-tertiary);
+  width: 220%;
+}
+.label {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 700;
+}
+.input {
+  font-size: 20px;
+  margin: 10px;
+}
+.span {
+  font-size: 13px;
+}

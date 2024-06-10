@@ -1,0 +1,16 @@
+.uploadSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 30px;
+  width: 100%;
+}
+.uploadTitle {
+  font-size: 30px;
+  color: #7e22ce;
+}

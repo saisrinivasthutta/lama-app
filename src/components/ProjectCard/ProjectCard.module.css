@@ -1,0 +1,52 @@
+.projectCard {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  border: var(--border-2);
+  border-radius: 26px;
+  box-shadow: var(--box-shadow-small);
+  padding: 10px;
+  height: 150px;
+}
+
+.projectAvatar {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 60px;
+  line-height: 92px;
+  font-weight: 700;
+  border-radius: 18px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  margin-top: 25px;
+}
+
+.projectName {
+  color: var(--lama-purple);
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.projectEpisodes {
+  color: var(--text-primary);
+}
+
+.projectDetails {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.projectData {
+  display: flex;
+  flex-direction: column;
+}
+.projectLastEdited {
+  color: var(--text-tertiary);
+}

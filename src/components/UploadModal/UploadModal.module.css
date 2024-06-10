@@ -1,0 +1,59 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWrapper {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 64px;
+  color: var(--text-primary);
+}
+
+.formGroupsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formButtons {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+.image {
+  height: 60px;
+}
+.label {
+  font-size: 20px;
+}
+.input {
+  font-size: 30px;
+  width: 80%;
+  padding: 7px;
+}
+.errorMsg {
+  font-size: medium;
+  color: red;
+}

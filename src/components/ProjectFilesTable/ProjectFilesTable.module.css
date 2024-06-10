@@ -1,0 +1,119 @@
+.table {
+  width: 100%;
+  box-shadow: var(--box-shadow-medium);
+  border-radius: 24px;
+  border: var(--border-3);
+  border-spacing: 0;
+}
+
+.table th {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.table td {
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.table th,
+.table td {
+  padding: 10px;
+}
+
+.table td:first-child,
+.table th:first-child {
+  padding-left: 54px;
+}
+
+.table td:last-child,
+.table th:last-child {
+  padding-right: 54px;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table th:first-child,
+.table td:first-child {
+  text-align: left;
+}
+
+.table th:last-child,
+.table td:last-child {
+  text-align: right;
+}
+
+.table tr td {
+  border-top: var(--border-3);
+}
+
+.table thead tr td {
+  border-top: none;
+}
+
+.table th td {
+  border: var(--border-3);
+}
+
+.table th:first-child {
+  border-top-left-radius: 24px;
+}
+
+.table th:last-child {
+  border-top-right-radius: 24px;
+}
+
+.table tr:last-child td:first-child {
+  border-bottom-left-radius: 24px;
+}
+
+.table tr:last-child td:last-child {
+  border-bottom-right-radius: 24px;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 6px;
+  border: var(--border-1);
+  width: 154px;
+  height: 50px;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.btnWrapper button {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  height: 100%;
+  padding: 0;
+  flex: 1;
+  border-radius: 0%;
+  background-color: #fff;
+}
+
+.btnWrapper button:hover {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 0;
+  flex: 1;
+  background-color: var(--bg-hover);
+}
+
+.editBtn {
+  color: var(--text-primary);
+  border-right: var(--border-1);
+}
+
+.deleteBtn {
+  color: var(--text-destructive);
+}

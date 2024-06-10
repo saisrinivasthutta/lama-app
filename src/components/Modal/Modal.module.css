@@ -1,0 +1,26 @@
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg-overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: #f1f8e8;
+  padding: 36px 48px;
+  margin: 30px;
+  border-radius: 32px;
+  max-width: 1350px;
+  width: 100%;
+  position: relative;
+  box-shadow: var(--box-shadow-medium);
+}
+
+.noScroll {
+  overflow: hidden;
+}

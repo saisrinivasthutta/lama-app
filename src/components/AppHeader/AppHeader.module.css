@@ -1,0 +1,53 @@
+.appHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navigation {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 500;
+  color: var(--text-gray);
+}
+
+.navigation > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation > a.home {
+  width: 52px;
+  height: 52px;
+  color: var(--lama-purple);
+}
+
+.navigation > a.activeLink {
+  color: var(--lama-purple);
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.language svg {
+  width: 28px;
+  height: 28px;
+}
+
+.language {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}

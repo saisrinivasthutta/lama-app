@@ -1,0 +1,95 @@
+.transcriptSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0px 0;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.discardBtn {
+  color: var(--text-destructive);
+  border: 2px solid var(--text-destructive);
+  border-radius: 8px;
+  height: 40px;
+  margin: 10px;
+}
+
+.saveBtn {
+  border: 2px solid transparent;
+  color: var(--button-text-primary);
+  background: var(--button-primary);
+  border-radius: 8px;
+  height: 40px;
+  margin: 10px;
+}
+
+.editingSection {
+  padding: 14px;
+  border: 2px solid var(--lama-purple);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.editBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 118px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 110px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: var(--text-primary);
+  font-weight: 500;
+  box-shadow: var(--box-shadow-small);
+}
+
+.editContentWrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.nameInput {
+  font-size: 23px;
+  line-height: 44px;
+  font-weight: bold;
+  color: var(--lama-purple);
+  border: none;
+  outline: none;
+}
+
+.descriptionInput {
+  font-size: 20px;
+  line-height: 44px;
+  height: fit-content;
+  color: var(--text-primary);
+  border: none;
+  outline: none;
+}
+
+.editContentWrapper textarea {
+  flex: 1;
+  height: 70vh;
+}
+.transcriptTitle {
+  font-size: 30px;
+  color: #1141c7;
+}

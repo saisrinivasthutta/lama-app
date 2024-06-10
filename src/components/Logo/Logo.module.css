@@ -1,0 +1,13 @@
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoText {
+  color: #7e22ce;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 800;
+  font-family: Georgia, serif;
+}

@@ -1,0 +1,74 @@
+.btn {
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background-color: transparent;
+  height: 72px;
+  padding: 0 40px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-icon {
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  color: var(--text-primary);
+}
+
+.btn-icon > svg {
+  width: 42px;
+  height: 42px;
+}
+
+.btn-icon:hover {
+  background-color: var(--bg-hover);
+  color: var(--button-primary);
+}
+
+.btn-badge {
+  height: 40px;
+  padding: 0 16px;
+  font-size: 20px;
+  border-radius: 36px;
+  border: var(--border-1);
+  box-shadow: var(--box-shadow-small);
+}
+
+.btn-badge:hover {
+  background-color: var(--bg-hover);
+  color: var(--button-primary);
+}
+
+.btn-large {
+  height: 110px;
+  padding: 0 32px;
+  font-size: 46px;
+  line-height: 54px;
+  gap: 16px;
+}
+
+.btn-primary {
+  color: var(--button-text-primary);
+  background: var(--button-primary);
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: var(--lama-purple);
+}
+
+.btn-destructiveGhost {
+  color: var(--text-destructive);
+}
+
+.btn-destructiveGhost:hover {
+  background-color: var(--bg-hover);
+}

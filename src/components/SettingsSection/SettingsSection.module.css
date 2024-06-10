@@ -1,0 +1,60 @@
+.settingsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 208px;
+  width: 208px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.imageWrapper > img {
+  object-fit: scale-down;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.imageWrapper > div {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-gray);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.inputWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex: 1;
+}
+
+.inputWrapper div {
+  flex: 1;
+}
+.settingsTitle {
+  font-size: 30px;
+  color: #1141c7;
+}
+.label {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 700;
+}
+.input {
+  font-size: 20px;
+  padding: 6px;
+  margin-left: 5px;
+}

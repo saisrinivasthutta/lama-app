@@ -1,0 +1,10 @@
+.layout {
+  display: flex;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+}
